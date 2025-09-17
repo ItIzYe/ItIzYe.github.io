@@ -4,3 +4,8 @@ padding: 10px;}
 .row::after{
   display: flex;
 }
+@media (max-width: 768px) {
+      .columns {
+        display: none;
+      }
+    }
