@@ -5,7 +5,7 @@ padding: 10px;}
   display: flex;
 }
 @media (max-width: 768px) {
-      .columns {
-        display: none;
+      .row {
+        flex-direction: column;
       }
     }
