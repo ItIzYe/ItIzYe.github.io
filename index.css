@@ -7,6 +7,5 @@ padding: 10px;}
 @media (max-width: 768px) {
       .columns {
         display: none;
-        text-size-adjust: 1vw;
       }
     }
