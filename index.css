@@ -1,0 +1,6 @@
+.column{flex: 50%;
+padding: 10px;}
+
+.row::after{
+  display: flex;
+}
