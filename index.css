@@ -4,8 +4,25 @@ padding: 10px;}
 .row::after{
   display: flex;
 }
+
+.programme {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* zwei Spalten nebeneinander */
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 1.5rem 3rem; /* Reihen- und Spaltenabstand */
+  text-align: center;
+}
+
+.programme > div {
+  padding: 0.5rem;
+}
+
 @media (max-width: 768px) {
       .row {
         flex-direction: column;
       }
+      .programme {
+    grid-template-columns: 1fr;
+  }
     }
